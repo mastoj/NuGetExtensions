@@ -1,0 +1,9 @@
+Simple extensions for NuGet. It is a very convenient package to use if you have solution where you don't check in packages. By either installing this package every time you check out or byt having one exception for the not to check in package rule for this package will give you the ability to install all packages for the whole solution by executing:
+
+    Install-NuGetPackagesForSolution
+	
+You will also have the option to just install the packages for the one project by executing:
+
+    Install-NuGetPackagesForProject
+	
+The last command have tab completion for all your projects.
