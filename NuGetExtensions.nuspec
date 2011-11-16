@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NuGetExtensions</id>
+    <version>1.0</version>
+    <title />
+    <authors>Tomas Jansson</authors>
+    <owners />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple extensions method to NuGet, like installing all packages for the solution.</description>
+  </metadata>
+  <files>
+    <file src="NuGetExtensions.psm1" target="tools\NuGetExtensions.psm1" />
+    <file src="init.ps1" target="tools\init.ps1" />
+  </files>
+</package>
